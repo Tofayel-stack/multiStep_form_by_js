@@ -1,0 +1,53 @@
+.container{
+    width:450px;
+    margin:auto;
+    background:#ddd;
+    display:block;
+    padding:15px 55px;
+}
+
+.container h1{
+    font-size: 25px;
+    color:rgb(206, 92, 0);
+    margin-top:0px;
+    text-align: center;
+}
+.container input{
+    padding:5px;
+    margin:5px 0px;
+
+}
+
+button{
+    background: green;
+    padding:5px 25px;
+    color:white;
+    margin:10px 5px;
+}
+#sBtn{
+    background: rgb(214, 12, 5);
+    padding:5px 25px;
+    color:white;
+    margin:10px 5px;
+}
+.form1, .form2, .form3{
+    border:3px solid rgb(107, 101, 101);
+    border-radius:7px;
+    -webkit-border-radius:7px;
+    -moz-border-radius:7px;
+    -ms-border-radius:7px;
+    -o-border-radius:7px;
+    box-sizing: border-box;
+    padding:15px;
+   
+}
+.form2, .form3{
+     display:none;
+}
+.displayShow{
+    display:block;
+}
+.displayHidden{
+    display:none;
+}
+
